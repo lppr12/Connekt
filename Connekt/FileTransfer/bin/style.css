@@ -1,0 +1,47 @@
+/* style.css */
+.root {
+    -fx-background-color: #f2f2f2;
+}
+
+.header-label {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #82db6b;
+}
+
+.progress-bar {
+    -fx-accent: #4CAF50;
+}
+.root {
+    -fx-base: #212121;
+    -fx-control-inner-background: #212121;
+    -fx-background: #212121;
+    -fx-background-color: #212121;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-base: #424242;
+    -fx-text-fill: white;
+}
+
+.progress-bar {
+    -fx-accent: #b645cd;
+}
+
+.progress-bar > .track {
+    -fx-text-box-border: rgb(4, 102, 4);
+    -fx-control-inner-background: rgb(112, 108, 117);
+}
